@@ -26,8 +26,8 @@ Before running the project, ensure you have the following installed:
 ### Install Dependencies
 1. Clone this repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/MB-Mayank/MultiLang-STT/tree/58d1198d1a63634bebfe22e9d16074f79a3e8f55
+   cd MultiLang-STT
    ```
 2. Install the required Python libraries:
    ```bash
@@ -78,7 +78,7 @@ whisper
    ```bash
    streamlit run user.py
    ```
-4. Open the Streamlit interface in your browser at: `http://localhost:8501`.
+4. Open the Streamlit interface in your browser`.
 
 ---
 
@@ -103,7 +103,7 @@ whisper
 
 ## How to Use
 
-1. Open the Streamlit web app (`http://localhost:8501`).
+1. Open the Streamlit web app.
 2. Upload an audio file in `.mp3` format.
 3. Wait for the transcription to process.
 4. View and copy the transcription from the interface.
@@ -118,16 +118,3 @@ whisper
 
 ---
 
-## Future Enhancements
-- Add support for additional audio formats (e.g., `.wav`, `.ogg`).
-- Implement user authentication for API access.
-- Enable real-time streaming transcription.
-
----
-
-## Acknowledgments
-- **Whisper Model**: [OpenAI](https://github.com/openai/whisper)
-- **FastAPI**: [FastAPI Framework](https://fastapi.tiangolo.com/)
-- **Streamlit**: [Streamlit](https://streamlit.io/) for the web interface
-
----
